@@ -14,6 +14,7 @@ while(user_choice !== "6") {
   switch (user_choice) {
     case "6":
       console.log("Later");
+      // you need to break
     case "1":
       alert(1);
       break;
