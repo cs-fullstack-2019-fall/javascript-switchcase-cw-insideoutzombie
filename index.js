@@ -64,7 +64,36 @@
 //   }
 // }
 
+<<<<<<< HEAD
 // ### Problem 3:
+=======
+while(user_choice !== "6") {
+  user_choice = prompt(
+    "Enter a number 1-5 or 6 to quit"
+  );
+  switch (user_choice) {
+    case "6":
+      console.log("Later");
+      // you need to break
+    case "1":
+      alert(1);
+      break;
+    case "2":
+      alert(2);
+      break;
+    case "3":
+      alert(3);
+      break;
+    case "4":
+      alert(4);
+      break;
+    case "5":
+      alert(5);
+      break;
+  }
+}
+// ### Problem 2:
+>>>>>>> c6fb4b5a314f5e10dbf9ee08a86d1ab9ced7a3f6
 // Put the start of your program in a main function.
 // Create an attendance array. Ask the user if a teacher, student, or parent is checking in.
 // Use a switch statement to add the teacher/student/parent to the attendance array, then log the option they chose.
